@@ -66,3 +66,50 @@
     - Создайте в корне файл init.sh, скопируйте в него код инициализации
     - Дайте права на выполнение: chmod +x init.sh
     - Запускайте перед стартом каждого нового модуля: ./init.sh
+
+##📊 Чек-лист навыков
+
+✅ Базовые SELECT ✔️
+sql_basic
+
+✅ Фильтрация и сортировка ✔️
+Все модули
+
+✅ Подзапросы (FROM, SELECT, WHERE) ✔️
+sql_basic, sql_joins
+
+✅ UNION / EXCEPT / INTERSECT ✔️
+sql_joins
+
+✅ JOIN всех типов ✔️
+sql_joins, sql_analytics
+
+✅ CTE и рекурсивные CTE ✔️
+sql_joins, sql_recursion
+
+✅ Агрегация: COUNT, AVG, SUM ✔️
+sql_analytics
+
+✅ GROUP BY + HAVING ✔️
+sql_analytics
+
+✅ Оконные функции ✔️
+sql_analytics
+
+✅ INSERT / UPDATE / DELETE ✔️
+sql_DML
+
+✅ Ограничения: PK, FK, CHECK ✔️
+sql_constraint
+
+✅ Индексы и EXPLAIN ANALYZE ✔️
+sql_index
+
+✅ VIEW / MATERIALIZED VIEW ✔️
+sql_view
+
+✅ Функции и триггеры (PL/pgSQL) ✔️
+sql_function
+
+✅ Рекурсия и графы ✔️
+sql_recursion
