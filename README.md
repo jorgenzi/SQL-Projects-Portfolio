@@ -42,4 +42,27 @@
     - `📄 Subject.md`
   - `📁 sql_recursion/` — 🔹 Модуль 9: Рекурсия и графы
     - `📄 day09_ex00.sql ... ex01.sql` — Traveling Salesman Problem в SQL
-    - `📄 Subject.md`
+    - `📄 Subject.md
+
+## 🚀 Быстрый старт
+
+1. Склонируйте репозиторий и перейдите в папку проекта:
+   git clone https://github.com/your-username/SQL-Projects-Portfolio.git
+   cd SQL-Projects-Portfolio
+  
+2. Запустите экземпляр PostgreSQL (выберите один вариант):
+  🐳 Через Docker (рекомендуется): docker-compose up -d
+  💻 Локально: убедитесь, что служба активна, и создайте пустую БД: createdb pizza_db
+
+3. Инициализируйте базу учебной схемой и данными:
+     psql -d pizza_db -f sql_simple_request/model.sql
+
+4. Выполните нужное задание:
+    Откройте терминал: psql -d pizza_db
+    Запустите конкретный скрипт: \i sql_basic/day01_ex00.sql
+    Проверьте результат запросом: SELECT * FROM person WHERE address = 'Казань';
+   
+5. (Опционально) Используйте скрипт быстрого сброса БД:
+    Создайте в корне файл init.sh, скопируйте в него код инициализации
+    Дайте права на выполнение: chmod +x init.sh
+    Запускайте перед стартом каждого нового модуля: ./init.sh
