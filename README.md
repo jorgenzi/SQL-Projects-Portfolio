@@ -51,8 +51,8 @@
    cd SQL-Projects-Portfolio
   
 2. Запустите экземпляр PostgreSQL (выберите один вариант):
-  🐳 Через Docker (рекомендуется): docker-compose up -d
-  💻 Локально: убедитесь, что служба активна, и создайте пустую БД: createdb pizza_db
+- 🐳 Через Docker (рекомендуется): docker-compose up -d
+- 💻 Локально: убедитесь, что служба активна, и создайте пустую БД: createdb pizza_db
 
 3. Инициализируйте базу учебной схемой и данными:
      psql -d pizza_db -f sql_simple_request/model.sql
